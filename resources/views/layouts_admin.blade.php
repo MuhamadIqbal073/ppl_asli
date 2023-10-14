@@ -76,7 +76,7 @@
 
                         <li class="sidebar-item {{ ($title == "Dasboard") ? 'active' : '' }} ">
                             <a href="/admin" class='sidebar-link'>
-                                <i class="bi bi-grid-fill"></i>
+                                <i class="fas fa-fw fa-tachometer-alt"></i>
                                 <span>Dashboard</span>
                             </a>
                         </li>
@@ -88,10 +88,10 @@
                             </a>
                         </li>
 
-                        <li class="sidebar-item ">
-                            <a href="index.html" class='sidebar-link'>
-                                <i class="bi bi-grid-fill"></i>
-                                <span>Dashboard</span>
+                        <li class="sidebar-item {{ ($title == "Manajemen Lomba") ? 'active' : '' }}">
+                            <a href="/lomba" class='sidebar-link'>
+                                <i class="fa-solid fa-medal"></i>
+                                <span>Manajemen Lomba</span>
                             </a>
                         </li>
 
