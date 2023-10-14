@@ -95,6 +95,20 @@
                             </a>
                         </li>
 
+                        <li class="sidebar-item {{ ($title == "Manajemen Prestasi") ? 'active' : '' }}">
+                            <a href="/lomba" class='sidebar-link'>
+                                <i class="fa-solid fa-trophy"></i>
+                                <span>Manajemen Prestasi</span>
+                            </a>
+                        </li>
+
+                        <li class="sidebar-item {{ ($title == "Manajemen Berita") ? 'active' : '' }}">
+                            <a href="/berita" class='sidebar-link'>
+                                <i class="fa-solid fa-trophy"></i>
+                                <span>Manajemen Berita</span>
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
