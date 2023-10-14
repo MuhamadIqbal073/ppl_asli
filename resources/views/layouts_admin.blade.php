@@ -85,10 +85,7 @@
             <div class="sidebar-wrapper active">
                 <div class="sidebar-header position-relative">
                     <div class="d-flex justify-content-between align-items-center">
-                        <div class="logo">
-                            <a href="/"><img src="./assets/compiled/svg/logo.svg" alt="Logo"
-                                    srcset=""></a>
-                        </div>
+                        <a href="/" style="font-size: 20px">Manajemen Prestasi</a>
                         <div class="theme-toggle d-flex gap-2  align-items-center mt-2">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="20"
@@ -140,14 +137,14 @@
 
                         <li class="sidebar-item {{ $title == 'Manajemen Mahasiswa' ? 'active' : '' }}">
                             <a href="/mahasiswa" class='sidebar-link'>
-                                <i class="fa-solid fa-users"></i>
+
                                 <span>Manajemen Mahasiswa</span>
                             </a>
                         </li>
 
                         <li class="sidebar-item {{ $title == 'Manajemen Lomba' ? 'active' : '' }}">
                             <a href="/lomba" class='sidebar-link'>
-                                <i class="fa-solid fa-medal"></i>
+                                <i class="bi bi-flag-fill"></i>
                                 <span>Manajemen Lomba</span>
                             </a>
                         </li>
@@ -161,7 +158,7 @@
 
                         <li class="sidebar-item {{ $title == 'Manajemen Berita' ? 'active' : '' }}">
                             <a href="/berita" class='sidebar-link'>
-                                <i class="fa-solid fa-trophy"></i>
+                                <i class="bi bi-newspaper"></i>
                                 <span>Manajemen Berita</span>
                             </a>
                         </li>
